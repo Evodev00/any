@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.bi{
+    height: 100vh;
+
+    
+}
+.back{
+    position: absolute;
+    top: 0;
+    width:98.7vw;
+    filter: brightness(0.5);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: relative;
+    z-index: 1;
+
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.netf{
+    width: 10vw;
+}
+.he{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+
+}
+.text{
+    margin: 0;
+    max-width: 80vw;
+    position: relative;
+    z-index: 1;
+    font-family: "Poppins";
+    color: white;
+    font-size: 49px;
+    text-align: center;
+}
+.text2{
+    position: relative;
+    z-index: 1;  
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 100;
+}
+.email{
+    position: relative;
+    z-index: 1;  
+}
+.email input{
+    background-color: rgba(0, 0, 0, 0.69);
+    border: 2px solid rgba(0, 0, 0, 0.69);
+    width: 20vw;
+    height: 7vh;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.email button{
+    height: 7vh;
+    width: 10vw;
+    margin-left: 20px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    font-family: "poppins";
+}
+.line{
+    height: 2vh;
+    width: 100vw;
+    background-color: rgba(13, 225, 253, 0.492)
+}
+
+
+
+
+
+
+
+
+
+
